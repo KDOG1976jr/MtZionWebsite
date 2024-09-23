@@ -1,0 +1,17 @@
+body{
+    background-color:darkorchid;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.xinfo{
+    float: left;
+    text-align: center;
+}
+.yinfo{
+    float: right;
+    text-align: center;
+}
