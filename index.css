@@ -24,3 +24,6 @@ body{
     width: 500px;
     border: 10px solid black;
 }
+.about{
+    border: 3px dashed black ;
+}
