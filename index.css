@@ -18,12 +18,15 @@ body{
     font-size: 40px;
 }
 .coverImage{
-    position: fixed ;
-    left: 525px;
-    height: 300px;
-    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 10px solid black;
 }
 .about{
     border: 3px dashed black ;
+}
+.cont{
+    position: relative;
 }
