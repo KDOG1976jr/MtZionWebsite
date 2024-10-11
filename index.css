@@ -26,6 +26,8 @@ body{
 }
 .about{
     border: 3px dashed black ;
+    float: left;
+    text-align: left;
 }
 .cont{
     position: relative;
