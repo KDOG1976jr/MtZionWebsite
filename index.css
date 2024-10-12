@@ -1,5 +1,5 @@
 body{
-    background-color:darkorchid;
+    background-color:purple;
 }
 
 .welcome{
@@ -26,9 +26,57 @@ body{
 }
 .about{
     border: 3px dashed black ;
-    float: left;
-    text-align: left;
+    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
+    
+    
 }
 .cont{
     position: relative;
+}
+.top {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    padding-top: 5px;
+    box-shadow: 0px 5px 15px 0px black;
+    border-radius: 10px;
+    min-width: 400px;
+  }
+  .navTxt{
+    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
+    font-size: 50px;
+    float: left;
+  }
+  .sectionHeader{
+    text-align: center;
+  }
+  .h{
+    text-align: center;
+  }
+  .hr{
+    text-align: center;
+    list-style-type: none;
+    
+  }
+  .mini{
+    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
+    float: right;
+    font-size: 50px;
+   
+  }
+  .form{
+    text-align: center;
+  }
+.Announcementsc{
+    text-align: center;
+    color: red;
+}
+.Announcements{
+    text-align: center;
 }
