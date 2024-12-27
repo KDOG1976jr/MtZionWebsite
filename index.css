@@ -1,82 +1,53 @@
 body{
-    background-color:purple;
+    background-color: purple;
 }
-
-.welcome{
-    text-align: center;
-    font-size: 100px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.xinfo{
-    float: left;
-    text-align: center;
-    font-size: 40px;
-}
-.yinfo{
-    float: right;
-    text-align: center;
-    font-size: 40px;
-}
-.coverImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 10px solid black;
-}
-.about{
-    border: 3px dashed black ;
-    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
-    
-    
-}
-.cont{
-    position: relative;
-}
-.top {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+ul {
+    list-style-type: none ;
+    margin: 45;
+    padding: 45;
     overflow: hidden;
     background-color: purple;
-    position: fixed;
-    position: sticky;
-    top: 0;
-    padding: 10px;
-    padding-top: 5px;
-    box-shadow: 0px 5px 15px 0px black;
-    border-radius: 10px;
-    min-width: 400px;
-  }
-  .navTxt{
-    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
-    font-size: 50px;
+}
+li {
     float: left;
-  }
-  .sectionHeader{
-    text-align: center;
-  }
-  .h{
-    text-align: center;
-  }
-  .hr{
-    text-align: center;
-    list-style-type: none;
-    
-  }
-  .mini{
-    font-family: "Apple Chancery", "Lucida Handwriting", cursive;
-    float: right;
-    font-size: 50px;
-   
-  }
-  .form{
-    text-align: center;
-  }
-.Announcementsc{
-    text-align: center;
-    color: red;
+    border-right: 1px solid black;
 }
-.Announcements{
+li a {
+    display: inline-block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+header {
+    font-size: large;
+    color: white;
+}
+div {
+    float: top;
+    padding: 15px;
+    border: 1px solid white;
+    color: white;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+@keyframes hovcol {
+  from {background-color: purple;}
+  to {background-color: black;}
+  
+}
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    animation-name: hovcol;
+    animation-duration: 1.5;
+  }
+  
+ 
+  
