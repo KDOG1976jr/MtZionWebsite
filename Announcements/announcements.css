@@ -1,0 +1,53 @@
+body{
+    background-color: purple;
+}
+ul {
+    list-style-type: none ;
+    margin: 45;
+    padding: 45;
+    overflow: hidden;
+    background-color: purple;
+}
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header {
+    font-size: large;
+    color: white;
+}
+div {
+    float: top;
+    padding: 15px;
+    border: 1px solid white;
+    color: white;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+@keyframes hovcol {
+  from {background-color: purple;}
+  to {background-color: black;}
+  
+}
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    animation-name: hovcol;
+    animation-duration: 1.5s;
+  }
+  
+ 
+  

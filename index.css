@@ -46,7 +46,7 @@ li a, .dropbtn {
   li a:hover, .dropdown:hover .dropbtn {
     background-color: black;
     animation-name: hovcol;
-    animation-duration: 1.5;
+    animation-duration: 1.5s;
   }
   
  
